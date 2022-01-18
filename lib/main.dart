@@ -24,7 +24,8 @@ class Home extends StatelessWidget{
         leading: Icon(Icons.menu),
         title: Text(
           'Hello Appbar',
-          style: TextStyle(color: Colors.white, fontWeight:FontWeight.bold),
+          style: TextStyle(color: Colors.white, 
+          fontWeight:FontWeight.bold),
           ),
       actions:<Widget>[ 
           Icon(Icons.search, color:Colors.black),
